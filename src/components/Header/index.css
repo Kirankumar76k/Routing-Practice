@@ -1,0 +1,32 @@
+/* Write your CSS code here */
+.header-container {
+  display: flex;
+  font-family: roboto;
+  justify-content: space-between;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  height: 35px;
+  width: 35px;
+}
+.logo-name {
+  font-size: 26px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: #12022f;
+}
+.menu {
+  display: flex;
+  list-style-type: none;
+}
+.link-name {
+  font-size: 26px;
+  margin-left: 10px;
+  color: #12022f;
+  font-weight: bold;
+  text-decoration: none;
+}
